@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Replace this with your actual authentication logic
         if (username === 'ray123' && password === 'allan123') {
-            window.location.href = 'ry.html'; // Redirect to home.html
+            window.location.href = 'index.html'; // Redirect to home.html
             
         } else {
             errorMessage.textContent = 'Invalid username or password.';
